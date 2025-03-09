@@ -18,11 +18,6 @@ variable "build_spec" {
   type        = string
 }
 
-variable "environment_variables" {
-  description = "Environment variables map for an Amplify app."
-  type        = map(string)
-}
-
 variable "microcms_service_domain" {
   description = "The domain for the MicroCMS service"
   type        = string
