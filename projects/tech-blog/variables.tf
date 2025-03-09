@@ -8,11 +8,6 @@ variable "access_token" {
   type        = string
 }
 
-variable "platform" {
-  description = "Platform or framework for an Amplify app. "
-  type        = string
-}
-
 variable "microcms_service_domain" {
   description = "The domain for the MicroCMS service"
   type        = string
