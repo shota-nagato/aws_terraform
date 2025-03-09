@@ -13,11 +13,6 @@ variable "platform" {
   type        = string
 }
 
-variable "build_spec" {
-  description = "Build specification (build spec) for the autocreated branch."
-  type        = string
-}
-
 variable "microcms_service_domain" {
   description = "The domain for the MicroCMS service"
   type        = string
